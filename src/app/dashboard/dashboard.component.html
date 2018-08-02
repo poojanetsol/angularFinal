@@ -1,0 +1,4 @@
+<app-header></app-header>
+Welcome To Dashboard
+
+<h4 *ngIf="_userService.user | async">you are logged in with  {{ (_userService.user | async)?.email }}!</h4>

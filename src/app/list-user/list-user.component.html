@@ -1,0 +1,20 @@
+<app-header></app-header>
+<div class="container">
+  <div class="table_header">
+    <h2>User Listing</h2>
+    <button type="button" routerLink="/add-user" class="btn btn-primary">Add User</button>
+  </div>
+  <table class="table table-bordered" id ="user_table">
+      <tr>
+        <th appStyle>Name</th>
+        <th appStyle>Email</th>
+        <th appStyle>Age</th>
+      </tr>
+      <tr *ngFor = "let i of users | async" ng-class-odd="'odd'">
+          <td>{{i.name }}</td>
+          <td>{{i.email }}</td>
+          <td >{{i.age }}</td>
+      </tr>
+  </table>
+</div>
+  

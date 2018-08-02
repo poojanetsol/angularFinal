@@ -1,0 +1,5 @@
+[
+    {"name":"Client 1","email":"client1@netsolutions.com","age":30},
+    {"name":"Client 2","email":"client2@netsolutions.com","age":31},
+    {"name":"Client 3","email":"client3@netsolutions.com","age":33}
+]
